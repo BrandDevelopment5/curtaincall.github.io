@@ -6,19 +6,24 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	background-color: #ffffff;
 }
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #A6243C;
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #591D33;
+	text-decoration-color: #000000;
+}
+
+.footercolor {
+	background-color: #591D33;
 }
 
 /* Effect on social media buttons */
@@ -30,7 +35,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #D9BC9A;
 	font-weight: bold;
 }
 
@@ -42,3 +47,29 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+.textcolorwhite {color: white;
+}
+
+/* all colors from our style guide */ 
+
+.color1 {
+	color: #A6243C;
+}
+
+.color2 {
+	color: #591D33;
+}
+
+.color3 {
+	background-color:#D9BC9A;
+}
+
+.color4 {
+	color: #D94F30;
+}
+
+.colo5 {
+	color: #A61C1C;
+}
+
