@@ -6,7 +6,7 @@
 
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 }
 
 /* Changing the background colour for the header */
@@ -23,7 +23,7 @@ header {
 }
 
 .footercolor {
-	background-color: #591D33;
+	background-color:#591D33;
 }
 
 /* Effect on social media buttons */
@@ -39,7 +39,7 @@ footer a:hover {
 	font-weight: bold;
 }
 
-/* Hero Section shadow */
+/* Hero Section */
 
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
@@ -49,6 +49,11 @@ footer a:hover {
 }
 
 .textcolorwhite {color: white;
+}
+
+.herosection {
+	background-image: url(../images/Examplepicture.jpeg);
+	height: 100vh;
 }
 
 /* all colors from our style guide */ 
@@ -73,3 +78,14 @@ footer a:hover {
 	color: #A61C1C;
 }
 
+/* text */
+
+.centretext {
+	 text-align: center;
+}
+
+/*profilehtml */
+
+.discounts {
+	height: 50px
+}
