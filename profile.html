@@ -9,6 +9,11 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	  
+	<!-- fond for headlines-->
+	 	 <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">  
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -22,11 +27,11 @@
   </head>
   <body class="h-100 d-flex flex-column">
 
-   <!-- start Navigation bar -->
+    <!-- start Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href= "images/">
-          <img src= "images/logo big.png" width="150" alt="Curtain Call Logo">
+        <a class="navbar-brand" href= "index.html">
+        <img src= "images/logo big.png" width="150" alt="Curtain Call Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,38 +39,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active yeseva-one-regular" aria-current="page" href="index.html">Home</a>
             </li>
 			  <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle yeseva-one-regular" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profile
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-            <li><a class="dropdown-item" href="chat.html">Chat</a></li>
+            <li><a class="dropdown-item yeseva-one-regular" href="profile.html">Profile</a></li>
+            <li><a class="dropdown-item yeseva-one-regular" href="chat.html">Chat</a></li>
+			<li><a class="dropdown-item yeseva-one-regular" href= "informational.html">Shows</a></li>  
 			   </ul>
         	</li>
             <li class="nav-item">
-				<a class="nav-link" href="corporate.html">Corporate</a>
-				<li>
-					</li>
-			  </li>
+				<a class="nav-link yeseva-one-regular" href="corporate.html">Corporate</a>
+				
+		    </li>
           </ul>
         </div>
       </div>
-    </nav>
+  </nav>
     <!-- End of navigation bar -->
 
     <!-- A grid with 2 columns
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
     -->
-    <main class="container-fluid my-2r">
+  <main class="container-fluid my-2r">
       <div class="row justify-content-evenly">
 
 		
         <!-- Column #1 -->
         <div class="col-sm-6 col-xl-5 col-xxl-4 container-fluid me-auto">
-          <h2 class="w-20 border-bottom border-3 border-info container-fluid me-auto">Profile</h2>
+          <h2 class="w-20 border-bottom border-3 border-info container-fluid me-auto yeseva-one-regular">
+			  Profile</h2>
 			
 			<!-- start profile picture container -->
 			<div class="row col-lg-12">
@@ -73,54 +79,55 @@
 			<img class="w-100 rounded-circle my-3 me-auto" src= "images/avatar.png" alt="Avatar" width="160">
         </div>
 		   <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder textcolour1 textshadow">NAME</h1>
-          <h5 class="textcolour">Bio&nbsp;</h5>
+          <h1 class="fw-bolder textcolour1 textshadow yeseva-one-regular">Guusje Smits</h1>
+          <h5 class="textcolour">Media and entertainment student with a passion for film, theatre and musicals &lt;3&nbsp;&nbsp;</h5>
         </div>
 		  </div>
 			<!-- end profile picture container -->
 
 			
-		  <h3 class="w-20 border-bottom border-3 border-info container-fluid me-auto"> Discounts</h3>
+		  <h3 class="w-20 border-bottom border-3 border-info container-fluid me-auto yeseva-one-regular"> Discounts</h3>
 			 <link rel="stylesheet" href="css/styles.css">
 			
 			<br>
 			
           <div class="progress discounts" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
 			 
-  			<div class="progress-bar bg-success discounts" style="width: 75%"> Chasse Breda</div>
-		</div>
+  			<div class="progress-bar custom-color1 discounts" style="width: 75%"> Chasse Breda 75% </div> 
+		</div> 
+			
 			
 			<br>
 
 			<div class="progress discounts" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
- 			 <div class="progress-bar bg-info" style="width: 50%">Name Theatre</div>
+ 			 <div class="progress-bar custom-color2" style="width: 50%">Beatrix Theater Utrecht 50%</div>
 		</div>
 		 
 			<br>
 			
 	<div class="progress discounts" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar bg-warning" style="width: 75%"> Name Theatre </div>
+  <div class="progress-bar custom-color3" style="width: 60%"> DeLaMAr Theater Amsterdam 60% </div>
 </div>
 			
 			<br>
 			
 	<div class="progress discounts" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar bg-danger" style="width: 90%">Name Theatre</div>
+  <div class="progress-bar custom-color4" style="width: 95%">Circustheater Scheveningen 95%</div>
 	</div>
         </div>
 		  
         <!-- Column #2 -->
 		  <!-- card 1 -->
         <div class="col-sm-6 col-xl-5 col-xxl-4 ms-auto">
-          <h2 class="w-100 border-bottom border-3 border-info">Your Recent Reviews</h2>
+          <h2 class="w-100 border-bottom border-3 border-info yeseva-one-regular">Your Recent Reviews</h2>
           <div class="card mb-3" style="max-width: 540px;">
   		<div class="row g-0">
    			 <div class="col-md-4">
-   		   <img src= "images/examplepicture 2.jpeg" class="img-fluid rounded-start" alt="...">
+   		   <img src= "images/theatreimage1.png" class="img-fluid rounded-start" alt="mammamia">
 		  </div>
   			  <div class="col-md-8">
     			  <div class="card-body">
-     		   <h5 class="card-title">Mamma Mia the Musical</h5>
+     		   <h5 class="card-title yeseva-one-regular">Mamma Mia the Musical</h5>
 					  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -137,11 +144,11 @@
 		  <div class="card mb-3" style="max-width: 540px;">
   			<div class="row g-0">
   		  <div class="col-md-4">
-    		  <img src= "images/examplepicture 3.jpeg" class="img-fluid rounded-start" alt="...">
+    		  <img src= "images/theatreimage3.png" class="img-fluid rounded-start" alt="prettywoman">
   			  </div>
   			  <div class="col-md-8">
     		  <div class="card-body">
-      		  <h5 class="card-title">The Prom</h5>
+      		  <h5 class="card-title yeseva-one-regular">Pretty Woman</h5>
 				  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -159,11 +166,11 @@
 		  <div class="card mb-3" style="max-width: 540px;">
   			<div class="row g-0">
   		  <div class="col-md-4">
-    		  <img src= "images/Examplepicture.jpeg" class="img-fluid rounded-start" alt="...">
+    		  <img src= "images/theatreimage2.png" class="img-fluid rounded-start" alt="lesmis">
   			  </div>
   			  <div class="col-md-8">
     		  <div class="card-body">
-      		  <h5 class="card-title">Wicked</h5>
+      		  <h5 class="card-title yeseva-one-regular">Les Miserables</h5>
 				  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
@@ -185,24 +192,32 @@
 	<br>
 	<br>
 	
-		
-		<hr class="featurette-divider">
+	<!-- start columns -->
+	
+	<div class="container text-center">
+  <div class="row align-items-center">
+   
+	
+	<!-- start friend reviews -->
+	<hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1" style="color: #E8631F">Loeki Reviewed Les Miserables</h2>
+        <h2 class="featurette-heading fw-normal lh-1 yeseva-one-regular" style="color: #A61C1C">Loeki Reviewed Les Miserables</h2>
 		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
-<p class="lead fst-italic">Blablabla</p> <div class="d-grid gap-2 d-md-flex signupbutton">
-			<a href= "chat.html" class="btn btn-secondary color3" tabindex="-1" role="button" aria-disabled="true">Reply</a>
+<p class="lead fst-italic">"Les Misérables" in the Netherlands transports audiences into Victor Hugo's poignant world with a mesmerizing adaptation that does justice to the timeless tale. From the moment the curtains rise, viewers are enraptured by the raw emotion, powerhouse performances, and breathtaking set design. The Dutch rendition skillfully captures the essence of Hugo's masterpiece while infusing it with a distinct local flair, creating a production that is both faithful to the original and refreshingly unique. With its stirring music, compelling narrative, and unforgettable characters, this adaptation of "Les Misérables" is a triumph of storytelling and a must-see for theater enthusiasts of all ages. It's a production that lingers in the heart and mind long after the final curtain call, leaving audiences spellbound and deeply moved.</p> <div class="d-grid gap-2 d-md-flex signupbutton">
+			<a href= "chat.html" class="btn btn-secondary backgroundcolor3" tabindex="-1" role="button" aria-disabled="true">Reply</a>
 				</div>
 		</div>
+		</div>
+		</div>
       <div class="col-md-5">
-        <img src= "images/examplepicture 3.jpeg" alt="..." class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto home-img-custom" width="500" height="500">
+        <img src= "images/theatreimage2.png" alt="lesmis" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto home-img-custom" width="500" height="500">
       </div>
     </div>
 	
@@ -211,25 +226,48 @@
 	
 		<div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1" style="color: #E8631F">Kira Reviewed Pretty Woman</h2>
+        <h2 class="featurette-heading fw-normal lh-1 yeseva-one-regular" style="color: #A61C1C">Kira Reviewed Pretty Woman</h2>
 		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
-        <p class="lead fst-italic">blablabla </p>
+        <p class="lead fst-italic"> This was the absolutely greatest play I’ve seen in my lifetime. I’ve seen thousands of plays and this is now my new all-time favourite. I believe Shanna Slaap, who played Vivian was beyond amazing. I cannot believe such talent and such fantastic singing could come from one woman who is the perfect one to be starred as the lead. The co star, Jan Kooijman did an outstanding job as well. If you have to see one play in the Netherlands this year, I strongly recommend Pretty Woman the musical. </p>
 			<div class="d-grid gap-2 d-md-flex signupbutton">
-			<a href= "chat.html" class="btn btn-secondary color3" tabindex="-1" role="button" aria-disabled="true">Reply</a>
+			<a href= "chat.html" class="btn btn-secondary backgroundcolor3" tabindex="-1" role="button" aria-disabled="true">Reply</a>
 				</div>
       </div>
 			
       <div class="col-md-5 order-md-1">
-        <img src= "images/examplepicture 2.jpeg" alt="..." class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto home-img-custom" width="500" height="500" >
+        <img src= "images/theatreimage3.png" alt="prettwoman" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto home-img-custom" width="500" height="500" >
 		  
-
       </div>
     </div>
+	
+	<!-- end friend review -->
+	
+	 <div class="col-lg-12">
+    <!-- start review column -->
+		<div class="reviewcontainer">
+  <h2>Write a New Review!</h2>
+  <form action="#" method="post">
+    <label for="stars">Rating:</label>
+    <select id="stars" name="stars">
+      <option value="1">★</option>
+      <option value="2">★★</option>
+      <option value="3">★★★</option>
+      <option value="4">★★★★</option>
+      <option value="5">★★★★★</option>
+    </select>
+	   <label for="review">Play/Musical:</label>
+    <textarea id="play:" name="Play" placeholder="What play or Musical did you see?" required></textarea>
+   <label for="review">Review:</label>
+    <textarea id="review" name="review" placeholder="Write your review here..." required></textarea>
+    <button type="submit" class="submit-btn backgroundcolor3">Submit Review</button>
+  </form>
+			</div>
+</div>
 	
 	<!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body footercolor container-fluid">

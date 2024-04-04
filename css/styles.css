@@ -1,11 +1,14 @@
-/* Importing a Google Font */
+/* Google Font josefin sans */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 	background-color: #FFFFFF;
 }
 
@@ -14,6 +17,31 @@ body {
 header {
 	background-color: #A6243C;
 }
+
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* custom color discounts */
+.custom-color1 {
+  background-color: #A6243C 
+}
+
+.custom-color2 {
+  background-color: #591D33
+}
+
+.custom-color3 {
+  background-color: #D94F30
+}
+
+.custom-color4 {
+  background-color: #A61C1C
+}
+
 
 /* Changing the background color for the navigation bar */
 
@@ -59,30 +87,70 @@ footer a:hover {
 	height: 100vh;
 	text-align: left;
 	text-align: center;
+	margin-left: auto
 }
 
-
-/* all colors from our style guide */ 
-
-.color1 {
-	background-color:  #A6243C;
+.herosection-information {
+	background-image: url( "../images/theatercarousel2.png");
+	height: 60vh;
+	text-align: left;
+	text-align: center;
+	margin-left: auto
 }
 
-.color2 {
+.textcolourhero {
+	content: "CONNECT";
 	color: #591D33;
 }
 
+.textsize {
+	font-weight: 800
+}
+
+/* all colors from our style guide for backgrounds */ 
+
+.backgroundcolor1 {
+	background-color:  #A6243C !important
+}
+
+.backgroundcolor2 {
+	background-color: #591D33 !important
+}
+
+.backgroundcolor3 {
+	background-color:#D9BC9A !important
+}
+
+.backgroundcolor4 {
+	background-color: #D94F30 !important
+}
+
+.backgroundcolor5 {
+	background-color: #A61C1C !important
+}
+
+/* colors */
+
+.color1 {
+	color:  #A6243C !important
+}
+
+.color2 {
+	color: #591D33 !important
+}
+
 .color3 {
-	background-color:#D9BC9A;
+	color:#D9BC9A !important
 }
 
 .color4 {
-	background-color:  c;
+	color: #D94F30!important
 }
 
-.colo5 {
-	color: #A61C1C;
+.color5 {
+	color: #A61C1C !important
 }
+
 
 /* text */
 
@@ -95,6 +163,11 @@ footer a:hover {
 .discounts {
 	height: 50px
 }
+
+.border-bottom {
+  border: #A61C1C
+}
+
 
 /* value cards */
 
@@ -172,3 +245,50 @@ footer a:hover {
   color: #999;
 }
 
+
+/* reviews */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .reviewcontainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea {
+    height: 150px;
+  }
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
