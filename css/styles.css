@@ -124,6 +124,10 @@ footer a:hover {
 	text-align: center
 }
 
+.textalignright {
+	text-align: right
+}
+
 /* all colors from our style guide for backgrounds */ 
 
 .backgroundcolor1 {
