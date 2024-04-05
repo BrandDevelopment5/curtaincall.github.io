@@ -19,7 +19,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
+    <title>Now Playing Information</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -40,20 +40,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active yeseva-one-regular" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active yeseva-one-regular colorwhite" aria-current="page" href="index.html">Home</a>
             </li>
 			  <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle yeseva-one-regular" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle yeseva-one-regular colorwhite" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profile
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item yeseva-one-regular" href="profile.html">Profile</a></li>
-            <li><a class="dropdown-item yeseva-one-regular" href="chat.html">Chat</a></li>
-			<li><a class="dropdown-item yeseva-one-regular" href= "informational.html">Shows</a></li>  
+            <li><a class="dropdown-item yeseva-one-regular color2" href="profile.html">Profile</a></li>
+            <li><a class="dropdown-item yeseva-one-regular color2" href="chat.html">Chat</a></li>
+			<li><a class="dropdown-item yeseva-one-regular color2" href= "informational.html">Now Playing</a></li>  
 			   </ul>
         	</li>
             <li class="nav-item">
-				<a class="nav-link yeseva-one-regular" href="corporate.html">Corporate</a>
+				<a class="nav-link yeseva-one-regular colorwhite" href="corporate.html">Corporate</a>
 				
 		    </li>
           </ul>
@@ -65,9 +65,9 @@
 
     <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
     <header class="container-fluid text-light herosection-information">
-      <div class="row h-75">
+      <div class="row h-100">
         <div class="col-md-8 col-lg-6 me-auto my-auto">
-          <h1 class="display-3 yeseva-one-regular">Spring Awakening</h1>
+          <h1 class="display-3 yeseva-one-regular">Now Playing</h1>
           <p class="lead"> </p>
         </div>
       </div>
@@ -79,19 +79,29 @@
 	  <!-- start information section -->
 	 
 	<main class="container-fluid col-lg-12 col-md-12 col-12">
-  <div class="p-4 p-md-5 mb-4 rounded custom-container-bg backgroundcolor1">
+  <div class="p-4 p-md-5 mb-4 rounded custom-container-bg backgroundcolor2">
     <div class="col-md-8 mx-auto">
-      <h1 class="display-4 custom-text-color yeseva-one-regular textcolorwhite">Coming Soon</h1>
-      <p class="lead my-3 textcolorwhite"> The popular Jukebox musical will soon be seen in The Netherlands! blabla  </p>
-      <p class="lead my-3">&nbsp;</p>
-      <p class="lead my-3 textcolorwhite">Playing in following theatres:&nbsp;</p>
-<p class="lead my-3 textcolorwhite">Breda - Tilburg - Utrecht - Amsterdam&nbsp;</p>
+      <h1 class="display-4 custom-text-color yeseva-one-regular centretext textcolorwhite">The Last Bite</h1>
+      <p class="lead my-3 centretext textcolorwhite"> Since April you are finally able to enjoy this international phenomenon in The Netherlands. This jukebox musical follows Nadine, a young girl who navigates through her life while struggling with her eating disorder. The Musical will play untill June 2024, so get your tickets soon! The cast tours all around the Netherlands, find out if they are coming to your city down below!&nbsp;</p>
+      <p class="lead my-3 centretext textcolorwhite lead fst-italic">&nbsp;</p>
+      <p class="lead my-3 centretext textcolorwhite lead fst-italic">"You will laugh, you will cry and you will leave feeling bittersweet."</p>
+<p class="lead my-3 centretext textcolorwhite lead fst-italic">-&nbsp;</p>
+<p class="lead my-3 centretext textcolorwhite"> The Telegraph </p>
+<p class="lead my-3">&nbsp;</p>
     </div>
   </div>
 	  </main>	
 			    
 	  <!-- end information section -->
-		
+	  
+		<div class="d-grid gap-2 d-md-flex justify-content-md-start mx-auto">
+		<button class="btn btn-primary me-md-2 backgroundcolor5"> English</button>
+		<button class="btn btn-secondary me-md-2 backgroundcolor4">Chasse Breda</button>
+		<button class="btn btn-secondary me-md-2 backgroundcolor4">Factorium Theater Tilburg</button>
+		<button class="btn btn-secondary me-md-2 backgroundcolor4">DeLaMar Amsterdam</button>
+		<button class="btn btn-secondary me-md-2 backgroundcolor4">Beatrix Theater Utrecht</button>
+	</div>
+	  
 		
 	  
 	  <br>
