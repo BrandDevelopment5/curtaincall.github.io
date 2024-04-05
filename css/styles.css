@@ -108,6 +108,22 @@ footer a:hover {
 	font-weight: 800
 }
 
+.textsize2 {
+	font-weight: +2
+}
+
+.textsize4 {
+	font-weight: +4
+}
+
+.textalignleft {
+	text-align: left
+}
+
+.textaligncenter {
+	text-align: center
+}
+
 /* all colors from our style guide for backgrounds */ 
 
 .backgroundcolor1 {
